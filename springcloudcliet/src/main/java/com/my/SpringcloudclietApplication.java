@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@EnableEurekaClient
+@EnableEurekaClient/*注解@EnableEurekaClient表明是一个服务提供者*/
 @RestController
 public class SpringcloudclietApplication {
 

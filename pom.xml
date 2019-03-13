@@ -18,7 +18,8 @@
 
     <modules>
         <module>springcloudeureka</module>
-        <!--<module>service-hi</module>-->
+        <module>springcloudcliet</module>
+        <module>springcloudribbon</module>
     </modules>
 
     <properties>
