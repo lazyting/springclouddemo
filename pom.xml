@@ -19,7 +19,6 @@
     <modules>
         <module>springcloudeureka</module>
         <module>springcloudcliet</module>
-        <module>springcloudribbon</module>
     </modules>
 
     <properties>

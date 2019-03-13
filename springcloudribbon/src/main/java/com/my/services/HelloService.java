@@ -20,4 +20,7 @@ public class HelloService {
         //基本实现了负载均衡
         return restTemplate.getForObject("http://SERVICE-HI/hi?name=" + name, String.class);
     }
+    public String hiError(String name) {
+        return "hi,"+name+",sorry,error!";
+    }
 }
