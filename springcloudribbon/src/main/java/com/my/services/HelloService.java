@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 /**
+ * ribbon消费服务
  * Created by lzt on 2019/3/13.
  */
 @Service
